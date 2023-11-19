@@ -1,0 +1,23 @@
+{
+  "name": "nodejs_txt_broadcast",
+  "version": "0.1.0",
+  "description": "Simple NodeJS server where clients can connect and broadcast some text messages",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "stop": "killall node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dr-PPSN/NodeJS_TXT_Broadcast.git"
+  },
+  "author": "Kai Rohrpasser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dr-PPSN/NodeJS_TXT_Broadcast/issues"
+  },
+  "homepage": "https://github.com/Dr-PPSN/NodeJS_TXT_Broadcast#readme",
+  "dependencies": {
+    "net": "^1.0.2"
+  }
+}
